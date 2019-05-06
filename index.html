@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- This website was created by Oswaldo Pablo -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     
+      <title>Pig Latin Translator</title>
+   
+<!-- link, style and script elements go here --> 
+<link rel="stylesheet" href="styles.css">
+<!-- <script src="captcha.js"></script> -->
+<script src="script.js"></script>
+<script src="captcha.js"></script>
+</head>
+
+<body>
+<main>
+    <div class="wrapper">
+    <div id="title">
+      <h1>Pig Latin Translator</h1>
+    </div>
+    <h2>Enter a phrase to be translated into Pig Latin</h2>
+    </div>
+    
+    <form>
+    <label for="textarea1">Enter phrase:</label>
+    <br>    
+<!-- Enter phrase to be translated here -->
+    <textarea id="textarea1" name="textarea1"></textarea>
+
+    <p>
+    <label for="captcha" id="captcha_label"></label>
+    <input type="text" id="captcha">
+    </p>
+
+<!-- Click button to execute script that wil tranlate phrase entered in textarea1 -->
+    <p>
+    <button id="translate">Translate</button>
+    </p>
+    
+    <label for="textarea2">Translation:</label>    
+<!-- Disabled. Translation should appear in disabled textarea2 if script executes properly -->
+    <textarea id="textarea2" name="textarea2" disabled></textarea>
+    
+    
+<!-- End of form tag -->
+    </form>
+        
+</main>
+
+<!-- Use the footer area to add webpage footer content -->
+<footer>
+<!-- Link to Wright College home page -->
+    <p><a href="http://www.ccc.edu/colleges/wright/pages/default.aspx">Wilbur Wright - City Colleges of Chicago</a></p>
+    
+<!-- W3 CSS validator -->
+    <p><a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS!" /></a>
+    </p>
+</footer>
+ 
+</body>
+</html>
